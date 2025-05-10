@@ -1,0 +1,135 @@
+/* body */
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+/* boilerplate container class */
+.container{
+    flex: 1;
+}
+
+/* Navbar  includes*/
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+/* NavbarIcons */
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+/* Navbar links */
+/*imp:The !important rule in CSS is used to add more importance to a property/value than normal. In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!*/
+.nav-link{
+    color:#222222 !important;  
+}
+
+/* Footer includes*/
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+/* to take 1005 width links and icons */
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+   margin-right: 1rem;
+}
+
+/* footer content */
+.f-info{
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    background-color: #a3a3a3;  /*ebebeb*/
+}
+
+/* cards index.ejs */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+   font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new.ejs btn -> new page*/
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show Page -> show.ejs */
+.show-img{
+   height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* mapBox */
+#map { 
+    /* height: 400px;
+    width: 80vh; */
+    height: 60vh; /*Adjust height as needed*/
+    width: 100%;   /*Full width*/
+    max-width: 1000px; /*Optional: restrict max width*/
+    margin: auto;  /* center the map */
+}
