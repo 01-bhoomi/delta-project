@@ -25,3 +25,8 @@ module.exports.reviewSchema = Joi.object({
     }).required(),
 });
 
+
+
+//ATLASDB_URL=mongodb+srv://bhoomi-01:Bhumi420@cluster0.fmkmjjr.mongodb.net/?appName=Cluster0
+/* YYe32nEQJwml74ou
+bhoomisinghrajput06_db_user */
